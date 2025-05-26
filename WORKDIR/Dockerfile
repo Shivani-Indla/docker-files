@@ -1,3 +1,5 @@
 FROM almalinux:9
-RUN mkdir /app cd /app pwd
+RUN mkdir /app 
+RUN cd /app 
+RUN pwd
 CMD ["sleep", "100"]
